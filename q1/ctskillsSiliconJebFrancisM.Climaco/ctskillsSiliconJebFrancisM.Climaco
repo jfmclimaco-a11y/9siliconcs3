@@ -57,27 +57,23 @@ Example Solution
  Step 4: Draw a flowchart or write a pseudocode for the identified sub-problem
 
 START
-    DISPLAY digital_menu
-    
+    DISPLAY menu
+
     REPEAT
         INPUT selected_items
-        SET items_available = TRUE
         
         FOR EACH item IN selected_items DO
-            IF item.stock == 0 THEN
-                DISPLAY item.name + " is currently out of stock."
-                SET items_available = FALSE
+            IF item is out of stock THEN
+                DISPLAY item.name + " is out of stock."
             ENDIF
         ENDFOR
-        
-    UNTIL items_available == TRUE
-    
-    CREATE pre_order_cart WITH selected_items
-    SET order_token = GENERATE_UNIQUE_ID()
+
+    UNTIL all selected_items are in stock
+
+    GENERATE order_token
     
     DISPLAY "Pre-order confirmed!"
-    DISPLAY "Your Order Token: " + order_token
-    DISPLAY "Show this token to the cashier to pay."
-
+    DISPLAY "Show Order Token to cashier: " + order_token
+END
 
 
