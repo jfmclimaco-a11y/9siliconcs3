@@ -1,0 +1,44 @@
+# zodiacSectionLN.py
+import sys
+
+def get_chinese_zodiac():
+    # List of Chinese Zodiac signs in order starting from 1900 (index 0 = 1900)
+    zodiac_signs = [
+        "Rat (鼠 / Shǔ)",     # Index 0: 1900, 1912, 1924...
+        "Ox (牛 / Niú)",       # Index 1: 1901, 1913, 1925...
+        "Tiger (虎 / Hǔ)",     # Index 2: 1902, 1914, 1926...
+        "Rabbit (兔 / Tù)",    # Index 3: 1903, 1915, 1927...
+        "Dragon (龙 / Lóng)",  # Index 4: 1904, 1916, 1928...
+        "Snake (蛇 / Shé)",    # Index 5: 1905, 1917, 1929...
+        "Horse (马 / Mǎ)",     # Index 6: 1906, 1918, 1930...
+        "Goat (羊 / Yáng)",    # Index 7: 1907, 1919, 1931...
+        "Monkey (猴 / Hóu)",   # Index 8: 1908, 1920, 1932...
+        "Rooster (鸡 / Jī)",  # Index 9: 1909, 1921, 1933...
+        "Dog (狗 / Gǒu)",      # Index 10: 1910, 1922, 1934...
+        "Pig (猪 / Zhū)"       # Index 11: 1911, 1923, 1935...
+    ]
+
+    try:
+        # Prompt user to enter their birth year and convert it to an integer
+        birth_year = int(input("Enter your birth year: "))
+    except ValueError:
+        # Handle cases where the user inputs non-numeric characters
+        print("Invalid input. Please enter a numerical year.")
+        sys.exit()
+
+    # Requirement b & c: Validate that the input year is not earlier than 1900
+    if birth_year < 1900:
+        print("Invalid Year, it should not be earlier than 1900")
+        sys.exit() # Abort/stop program execution
+
+    # Requirement d: Calculate index using modulo arithmetic based on the 12-year cycle
+    # (birth_year - 1900) sets 1900 as baseline index 0
+    sign_index = (birth_year - 1900) % 12
+    zodiac_sign = zodiac_signs[sign_index]
+
+    # Display the result to the user
+    print(f"Your Chinese Zodiac Sign is: {zodiac_sign}")
+
+# Entry point of the script
+if __name__ == "__main__":
+    get_chinese_zodiac()
