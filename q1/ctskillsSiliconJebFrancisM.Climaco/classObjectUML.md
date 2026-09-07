@@ -8,8 +8,8 @@
 | FurColor | String | The fur color of the cat. |
 | EyeColor | String | The eye color of the cat. |
 | Breed | String | The breed of the cat. |
-| Height | Integer | The height of the cat. |
-| Length | Integer | The length of the cat. |
+| Height | Integer | The height of the cat in inches. |
+| Length | Integer | The length of the cat in inches. |
 ## Methods
 | Method | Description |
 |---|---|
