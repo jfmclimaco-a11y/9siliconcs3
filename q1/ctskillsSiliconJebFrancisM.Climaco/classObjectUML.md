@@ -24,6 +24,6 @@
 ## Class Diagram
 ![Class Diagram](images/classDiagram.png)
 ## Design Explanation
-### Why did you choose this class? 
-### Which property is the most important? Why?
-### Which method is the most useful? Why?
+### Why did you choose this class? Because I want to list and view all of the cats I have encountered in different places.
+### Which property is the most important? Why? Breed; because the breed tells you vital information about its health needs, behavior, and daily care.
+### Which method is the most useful? Why? getBreed; just like my explanation earlier, the breed can determine the cat's vital information, ensuring that you will handle it the way it's supposed to.
