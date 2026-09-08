@@ -8,3 +8,4 @@ A jack of All Trades is a Master of None but is Often Better than a Master of On
 * [Click here to view my zodiac activity](https://github.com/jfmclimaco-a11y/9siliconcs3/blob/main/q1/ctskillsSiliconJebFrancisM.Climaco/zodiacSiliconJebFrancisM.Climaco)
 * [Click here to view my oop activity](https://github.com/jfmclimaco-a11y/9siliconcs3/blob/main/q1/ctskillsSiliconJebFrancisM.Climaco/ila_oop.md)
 * [Click here to view my OOPAct activity](https://github.com/jfmclimaco-a11y/9siliconcs3/blob/main/q1/ctskillsSiliconJebFrancisM.Climaco/classObjectUML.md)
+* [Click here to view my OOPAct Part II activity](https://github.com/jfmclimaco-a11y/9siliconcs3/blob/main/q1/ctskillsSiliconJebFrancisM.Climaco/classAttributesMethod.md)
