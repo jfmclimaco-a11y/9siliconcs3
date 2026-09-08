@@ -3,16 +3,18 @@
 Link to my previous activity:
 [classObjectUML.md](classObjectUML.md)
 ## Design Revision
-I have removed the methods: giveCatnip() & performTrick()
+I have removed the methods:
+- giveCatnip()
+- performTrick()
 ## Visibility Decisions
 | Attribute | Data Type | Visibility | Reason |
 |---|---|---|---|
-| Name | String | Public |  |
-| FurColor | String | Public |  |
-| EyeColor | String | Public |  |
-| Breed | String | Private |  |
-| Height | Integer | Public |  |
-| Length | Integer | Public |  |
+| Name | String | Public | This is public so that anyone is able to view the cat's name. |
+| FurColor | String | Public | This is public so that anyone is able to view the cat's fur color. |
+| EyeColor | String | Public | This is public so that anyone is able to view the cat's eye color. |
+| Breed | String | Private | This is private so that only the user is able to identify the cat's breed, reducing risks of catnapping. |
+| Height | Integer | Public | This is public so that anyone is able to view the cat's height in inches. |
+| Length | Integer | Public | This is public so that anyone is able to view the cat's length in inches. |
 ## Updated UML Class Diagram
 ![Class Diagram](images/classDiagramSG5.png)
 ## Python Implementation
