@@ -2,7 +2,7 @@
 ## Previous Work
 [Part I - Classes and Objects](classObjectUML.md)
 
-[Part II - Class Attributes and Methods](classAttributesMethods.md)
+[Part II - Class Attributes and Methods](https://github.com/jfmclimaco-a11y/9siliconcs3/blob/main/q1/ctskillsSiliconJebFrancisM.Climaco/classAttributesMethod.md)
 
 ## Existing Class
 Class:
