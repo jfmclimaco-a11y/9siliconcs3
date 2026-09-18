@@ -30,7 +30,13 @@ Explanation: One cat can eat many different servings of cat food over time, but 
 ![Object Relationship Diagram](images/objectRelationshipDiagram.png)
 ## Analysis
 ### What is the association between your two classes?
+- The classes have a usage association because Cat interacts with CatFood to perform an action. Specifically, a Cat object takes a CatFood object as an argument inside its eat method. The two classes remain independent, so destroying a cat does not destroy the food object.
 ### What multiplicity did you choose and why?
+- A one to many multiplicity was chosen because one cat can eat many different food items over time. A one to one relationship would incorrectly mean a cat could only ever eat a single portion of food in its entire lifetime. Each specific CatFood item is consumed by one individual cat at a time.
 ### How did you implement the relationship in Python?
+- The relationship is implemented by passing a CatFood instance as a parameter named food directly into the eat method of the Cat class. If you want to keep track of every meal permanently, you can store those objects in a meals list attribute inside the Cat initialization method. Calling the list append method saves the food object inside the cat instance.
 ### Why did you store an object reference instead of copying its data?
+- Storing a reference points directly to the original CatFood object in memory instead of duplicating its values. For example, when running the eat method with food1, Python passes the live food1 instance directly to the function. This ensures that any changes to food1 are instantly reflected without duplicating data or breaking synchronization.
 ### If your relationship uses many, why is a list appropriate?
+- A list is ideal because it can dynamically hold multiple items and grow as the cat eats more food. The list contains memory pointers that refer directly to active CatFood objects like food1 and food2. This allows you to loop through the list easily to inspect past meals or calculate total calories eaten.
+  
