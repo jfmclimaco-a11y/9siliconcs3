@@ -5,20 +5,21 @@
 [Part II - Class Attributes and Methods](https://github.com/jfmclimaco-a11y/9siliconcs3/blob/main/q1/ctskillsSiliconJebFrancisM.Climaco/classAttributesMethod.md)
 
 ## Existing Class
-Class:
-Description:
+Class:Cat
+
+Description: A carnivore often kept as a pet by humans.
 
 ## New Related Class
-Class:
-Description:
+Class: Cat Food
+Description: food made specifically for cats to eat
 
 ## Association
-Relationship:
-Explanation:
+Relationship: A Cat eats CatFood.
+Explanation: A Cat has a uses-a relationship with CatFood, where the cat consumes the food to perform an action.
 ## Multiplicity
 
-Multiplicity:
-Explanation:
+Multiplicity: 1 : Many
+Explanation: One cat can eat many different servings of cat food over time, but each individual serving of food is eaten by only one specific cat.
 ## UML Class Relationship Diagram
 ![Class Relationship Diagram](images/classRelationshipDiagram.png)
 ## Python Implementation
