@@ -25,7 +25,8 @@ Explanation: CatOwner has a weak HAS-A relationship with Cat. The CatOwner class
 [Source Code](advancedRelationships.py)
 
 ## Test Run
-[Test](images/advancedTestRun.png)
+![Test](images/advancedTestRun.png)
+
 ## Object Diagram
 [Objects](images/advancedObjectDiagram.png)
 
