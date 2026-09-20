@@ -13,18 +13,14 @@ class Pet:
 # Child Class using Inheritance
 class Cat(Pet):
 
-    def __init__(
-        self, name: str, age: int, breed: str, hunger_level: int = 2
-    ):
+    def __init__(self, name: str, age: int, breed: str, hunger_level: int = 2):
         super().__init__(name, age, breed)
         self.hunger_level = hunger_level
 
     def eat(self, food) -> None:
         if self.hunger_level > 0:
             self.hunger_level -= 1
-            print(
-                f"{self.name} ate {food.brand} {food.flavor} food! Hunger level is now {self.hunger_level}."
-            )
+            print(f"{self.name} ate {food.brand} {food.flavor} food! Hunger level is now {self.hunger_level}.")
         else:
             print(f"{self.name} is full!")
 
