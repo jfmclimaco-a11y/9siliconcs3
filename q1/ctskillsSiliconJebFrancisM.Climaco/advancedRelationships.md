@@ -5,11 +5,15 @@
 [classRel](classRelationships.md)
 ## Existing System Description:
 ## Inheritance Relationship
-Parent:
-Child:
-Explanation:
+Parent: Pet
+
+Child: Cat
+
+Explanation: A Cat is a specific type of Pet. The Pet parent class holds general attributes such as name, age, and breed, while the Cat child class inherits these features and adds cat-specific properties like hunger_level and methods like meow.
+
 ## Inheritance UML
 ![Inheritance](images/inheritanceDiagram.png)
+
 ## Composition/Aggregation
 Relationship:
 Explanation:
