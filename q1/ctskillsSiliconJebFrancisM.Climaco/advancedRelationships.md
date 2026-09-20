@@ -28,7 +28,7 @@ Explanation: CatOwner has a weak HAS-A relationship with Cat. The CatOwner class
 ![Test](images/advancedTestRun.png)
 
 ## Object Diagram
-[Objects](images/advancedObjectDiagram.png)
+![Objects](images/advancedObjectDiagram.png)
 
 ## Reflection
 Answers:
