@@ -1,6 +1,6 @@
 # Advanced Class Relationships
 ## Previous Activities
-[classAttrib](classAttributesMethods.md)
+[classAttrib](classAttributesMethod.md)
 
 [classRel](classRelationships.md)
 ## Existing System Description:
