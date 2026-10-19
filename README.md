@@ -11,3 +11,4 @@ A jack of All Trades is a Master of None but is Often Better than a Master of On
 * [Click here to view my OOPAct Part II activity](https://github.com/jfmclimaco-a11y/9siliconcs3/blob/main/q1/ctskillsSiliconJebFrancisM.Climaco/classAttributesMethod.md)
 * [Click here to view my OOPAct Part III activity](https://github.com/jfmclimaco-a11y/9siliconcs3/blob/main/q1/ctskillsSiliconJebFrancisM.Climaco/classRelationships.md)
 * [Click here to view my OOPAct Part IV activity](https://github.com/jfmclimaco-a11y/9siliconcs3/blob/main/q1/ctskillsSiliconJebFrancisM.Climaco/advancedRelationships.md)
+* [Click here to view my SG8 Encapsulation Activity](https://github.com/jfmclimaco-a11y/9siliconcs3/blob/main/q1/ctskillsSiliconJebFrancisM.Climaco/sg8_encapsulation.py)
