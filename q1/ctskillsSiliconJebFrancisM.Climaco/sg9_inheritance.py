@@ -2,8 +2,8 @@
 class Publication:
     def __init__(self, title: str, author: str):
         # Initializes private attributes to store title and author securely.
-        self.__title = None
-        self.__author = None
+        self.__title= None
+        self.__author= None
 
         # Sets initial values via setter methods for encapsulation consistency.
         self.set_title(title)
@@ -15,7 +15,7 @@ class Publication:
 
     # Updates the private title attribute with the provided string value.
     def set_title(self, title: str):
-        self.__title = title
+        self.__title= title
 
     # Returns the private author attribute for read access.
     def get_author(self):
@@ -23,7 +23,7 @@ class Publication:
 
     # Updates the private author attribute with the provided string value.
     def set_author(self, author: str):
-        self.__author = author
+        self.__author= author
 
     # Displays basic details shared by all publications.
     def display_info(self):
@@ -38,7 +38,7 @@ class Book(Publication):
         super().__init__(title, author)
 
         # Initializes private page count attribute.
-        self.__number_of_pages = 0
+        self.__number_of_pages= 0
 
         # Sets initial page count using setter to run validation logic.
         self.set_number_of_pages(number_of_pages)
@@ -49,10 +49,10 @@ class Book(Publication):
 
     # Validates that pages are greater than zero before updating the attribute.
     def set_number_of_pages(self, number_of_pages: int):
-        if number_of_pages <= 0:
+        if number_of_pages <=0:
             print("Number of pages must be positive.")
         else:
-            self.__number_of_pages = number_of_pages
+            self.__number_of_pages= number_of_pages
 
     # Overrides display_info to include parent details along with the page count.
     def display_info(self):
@@ -67,7 +67,7 @@ class Magazine(Publication):
         super().__init__(title, author)
 
         # Initializes private issue number attribute.
-        self.__issue_number = 0
+        self.__issue_number= 0
 
         # Sets initial issue number using setter to run validation logic.
         self.set_issue_number(issue_number)
@@ -78,10 +78,10 @@ class Magazine(Publication):
 
     # Validates that issue number is greater than zero before updating the attribute.
     def set_issue_number(self, issue_number: int):
-        if issue_number <= 0:
+        if issue_number <=0:
             print("The issue number must be positive.")
         else:
-            self.__issue_number = issue_number
+            self.__issue_number= issue_number
 
     # Overrides display_info to include parent details along with the issue number.
     def display_info(self):
@@ -92,9 +92,9 @@ class Magazine(Publication):
 # Demonstrates class functionality and verifies output against sample expectations.
 if __name__ == "__main__":
     # Creating sample objects as specified in the assessment guidelines
-    pub1 = Publication("Journal of Experimental Psychology", "Ratchiff, R. & Van Dongen, H.")
-    book1 = Book("The Hobbit", "J.R.R. Tolkien", 310)
-    mag1 = Magazine("National Geographic", "Various Authors", 202)
+    pub1= Publication("Journal of Experimental Psychology", "Ratchiff, R. & Van Dongen, H.")
+    book1= Book("The Hobbit", "J.R.R. Tolkien", 310)
+    mag1= Magazine("National Geographic", "Various Authors", 202)
 
     # Output matching the specified sample format
     print("Publication Information:")
