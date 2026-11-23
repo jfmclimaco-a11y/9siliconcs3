@@ -1,1 +1,8 @@
+a. What is duck typing, as explained in the video?
+Duck typing is a concept in Python based on the saying, "If it walks like a duck and quacks like a duck, it's a duck". It means Python does not check what class an object comes from or require inheritance. As long as an object has the needed method, Python can use it.
 
+b. What did the Car class need to have so it could work inside the same loop as Dog and Cat, even if it does not inherit from the Animal class?
+The Car class simply needed to have the exact same method name such as speak() or make_sound() as the Dog and Cat classes.
+
+3. How does the code in 2.2 demonstrate polymorphism?
+The code demonstrates polymorphism because Car, Boat, and Drone are three completely separate classes with no parent-child inheritance, yet they all share the same move() method name. When the start_trip(vehicle) function calls vehicle.move(), Python automatically runs the specific move() behavior belonging to whichever vehicle object was passed into it.
