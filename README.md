@@ -15,3 +15,6 @@ A jack of All Trades is a Master of None but is Often Better than a Master of On
 * [Click here to view my SG9 Inheritance activity](https://github.com/jfmclimaco-a11y/9siliconcs3/blob/main/q2/sg9_inheritance.py)
 * [Click here to view my SG10 Method Overriding activity](https://github.com/jfmclimaco-a11y/9siliconcs3/blob/main/q2/sg10_methodoverriding.py)
 * [Click here to view my SG11 Polymorphism activity 1](https://github.com/jfmclimaco-a11y/9siliconcs3/blob/main/q2/sg11polymorphism_activity1.py)
+* [Click here to view my SG11 Polymorphism activity 2 Part 1&3](https://github.com/jfmclimaco-a11y/9siliconcs3/blob/main/q2/sg11polymorphism_activity2)
+* [Click here to view my SG11 Polymorphism activity 2 Part 2](https://github.com/jfmclimaco-a11y/9siliconcs3/blob/main/q2/sg11polymorphism_activity2.py)
+
